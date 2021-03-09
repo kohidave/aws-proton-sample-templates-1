@@ -3,3 +3,4 @@ infrastructure:
     - file: "cloudformation.yaml"
       engine: jinja
       template_language: cloudformation
+      params: params/${instance}.yaml
